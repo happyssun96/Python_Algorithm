@@ -21,7 +21,7 @@
 </p>
 
 <h3> 질문 2 </h3>
-168페이지find_fakecoin 함수 중간
+168페이지 find_fakecoin 함수 중간
 <pre>
 def find_fakecoin(left, right):
     for i in range(left+1, right+1): # left+1 부터 right까지 반복
