@@ -32,7 +32,6 @@ def find_fakecoin(left, right):
         elif result == 1:   # i 동전이 가벼움(i 동전이 가짜)
             return i
         # 두 동전의 무게가 같으면 다음 동전으로
-    
     # 모든 동전의 무게가 같으면 가짜 동전이 없는 예외 경우
     return -1
 </pre>
