@@ -2,7 +2,6 @@
 <h3>질문</h3>
 <p> 연습문제 15-2 설명에 대해 -> 코드 설명이 전부인가? -> Yes </p>
 <img src="https://user-images.githubusercontent.com/59468442/105175209-f4fdd600-5b66-11eb-8efe-a4a594bb7789.png" />
-"
 <p>
 <ol>
     <li>시작 꼭짓점을 qu와 done에 각각 추가하고 시작합니다. -> qu = [1], done = {1}</li>
