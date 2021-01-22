@@ -19,22 +19,3 @@
     <li>이 과정으로 출력된 꼭짓점 순서는 1->2->3->4->5입니다.</li>
 </ol>
 </p>
-
-<h3> 질문 2 </h3>
-168페이지 find_fakecoin 함수 중간
-<pre>
-def find_fakecoin(left, right):
-    for i in range(left+1, right+1): # left+1 부터 right까지 반복
-        # 가장 왼쪽 동전과 나머지 동전을 차례로 비교
-        result = weigh(left, left, i, i)
-        if result == -1:    # left 동전이 가벼움(left 동전이 가짜)
-            return left
-        elif result == 1:   # i 동전이 가벼움(i 동전이 가짜)
-            return i
-        # 두 동전의 무게가 같으면 다음 동전으로
-    # 모든 동전의 무게가 같으면 가짜 동전이 없는 예외 경우
-    return -1
-</pre>
-<br />
-이 부분에 result 부분 비교하는 부분부터 이해가 안감 <br/>
-그 다음 장에 나오는 두번째 방법도 마찬가지
